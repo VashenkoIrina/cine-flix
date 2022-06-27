@@ -1,0 +1,62 @@
+<header class="header">
+    <div class="container">
+        <div class="header__box">
+
+            <div class="header__logo">
+                <a><svg class="icon__film">
+                        <use href="./images/icons.svg#icon-film"></use>
+                    </svg></a>
+            </div>
+
+            <div class="header__title">
+                <h1 class="header__text">Cine <span>Flix</span></h1>
+            </div>
+
+            <div class="header__menu">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#" class="sitenav__linkcurrent home__btn current">HOME</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="sitenav__link library__btn">MY LIBRARY</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+        <!-- /закрыт header box -->
+
+        <button type="button" class="logout-btn visually-hidden" data-translatable>LOGOUT</button>
+
+        <form class="header__searchform">
+
+            <div class="header__form">
+                <div class="header__forminput">
+                    <input type="search" class="header__input" name="searchQuery" placeholder="Поиск фильмов">
+                </div>
+                <button type="submit" class="header__button">
+                    <svg class="header__svg" width="12" height="12">
+                        <use href="/src/images/icons.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </div>
+
+        </form>
+        <div class="header__error"></div>
+
+        <div class="library__btn ">
+            <ul class="library__list visually-hidden">
+                <li class="library__item">
+                    <button type="button" class="library__link watched-btn" data-translatable>Watched</button>
+                </li>
+                <li class="library__item">
+                    <button type="button" class="library__link queue-btn" data-translatable>Queue</button>
+                </li>
+            </ul>
+
+        </div>
+</header>

@@ -1,0 +1,55 @@
+.card {
+  margin: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin: 16px;
+    width: calc(100% / 2 - 32px);
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: calc(100% / 4 - 32px);
+  }
+
+  &__container {
+    margin-bottom: 10px;
+  }
+
+  &__img {
+    border-radius: 5px;
+    max-width: 100%;
+  }
+}
+
+.meta {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  @media screen and (min-width: 1024px) {
+    min-height: 64px;
+  }
+
+  &__list {
+    display: flex;
+    color: var(--accent-text-color);
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+
+    &--genres {
+      border-right: 1px solid var(--card-color);
+      padding-right: 5px;
+    }
+
+    &--rating {
+      color: var(--main-text-color);
+      background-color: var(--card-color);
+      padding: 0 9px;
+      border-radius: 4px;
+    }
+  }
+}

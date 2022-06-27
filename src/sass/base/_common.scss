@@ -1,0 +1,55 @@
+body {
+  font-family: var(--basic-text-famili);
+  font-weight: 400;
+  outline: none;
+  background-color: #E0E0E0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+button {
+  border: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}

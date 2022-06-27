@@ -1,0 +1,12 @@
+@import './base/common';
+@import './base/reset';
+@import './components/card';
+@import './utils/visually-hidden';
+@import './utils/variables';
+@import './utils/keyframes';
+
+@import './layout/header';
+@import './layout/main-gallery';
+@import './layout/modal';
+@import './layout/pagination';
+@import './layout/footer';

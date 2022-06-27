@@ -1,0 +1,62 @@
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px var(--accent-text-color), 0 0 20px var(--accent-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
+    }
+
+    to {
+        text-shadow: 0 0 20px var(--main-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
+    }
+}
+
+@keyframes footer-heart {
+    0% {
+
+        transform: scale(0.9);
+    }
+
+    100% {
+
+        transform: scale(1.75);
+    }
+}
+
+@keyframes rotateLogo {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes pulsate {
+
+    100% {
+
+        text-shadow:
+            0 0 4px var(--main-text-color),
+            0 0 11px var(--main-text-color),
+            0 0 19px var(--main-text-color),
+            0 0 40px var(--accent-text-color),
+            0 0 80px var(--accent-text-color),
+            0 0 90px var(--accent-text-color),
+            0 0 100px var(--accent-text-color),
+            0 0 150px var(--accent-text-color);
+
+    }
+
+    0% {
+
+        text-shadow:
+            0 0 4px var(--main-text-color),
+            0 0 10px var(--main-text-color),
+            0 0 18px var(--main-text-color),
+            0 0 38px var(--accent-text-color),
+            0 0 73px var(--accent-text-color),
+            0 0 80px var(--accent-text-color),
+            0 0 94px var(--accent-text-color),
+            0 0 140px var(--accent-text-color);
+
+    }
+}
